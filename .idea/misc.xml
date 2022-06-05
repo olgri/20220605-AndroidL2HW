@@ -18,7 +18,9 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/cell_layout.xml" value="0.33" />
         <entry key="app/src/main/res/layout/cell_layout2.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/cell_layout2_new.xml" value="0.3203125" />
         <entry key="app/src/main/res/layout/cell_layout3.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/cell_layout3_new.xml" value="0.3203125" />
         <entry key="app/src/main/res/layout/cell_layout_new.xml" value="0.3203125" />
         <entry key="app/src/main/res/layout/squre_with_info.xml" value="0.33" />
       </map>
