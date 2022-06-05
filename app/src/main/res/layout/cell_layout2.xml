@@ -13,35 +13,32 @@
 
 
     <ImageView
-        android:id="@+id/bookSceen1"
+        android:id="@+id/bookSceen2"
         android:layout_width="106dp"
         android:layout_height="148dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/brave_new_world"
+        android:src="@drawable/jane_eyre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars"></ImageView>
+        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/percent1"
+        android:id="@+id/percent2"
         android:layout_width="41dp"
         android:layout_height="41dp"
         android:background="@drawable/round_corner_background"
         android:fontFamily="@font/roboto_font"
         android:gravity="center"
         android:text="52%"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/bookSceen2"
+        app:layout_constraintEnd_toStartOf="@id/star2"
+        app:layout_constraintStart_toEndOf="@id/bookSceen2"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="@id/bookSceen1"
-        app:layout_constraintEnd_toStartOf="@id/star1"
-        app:layout_constraintStart_toEndOf="@id/bookSceen1"
-
         ></TextView>
 
     <ImageButton
-        android:id="@+id/star1"
+        android:id="@+id/star2"
         android:layout_width="41dp"
         android:layout_height="41dp"
         android:background="@drawable/round_corner_background"
@@ -50,13 +47,13 @@
         android:paddingTop="7dp"
         android:paddingEnd="6dp"
         android:paddingBottom="6dp"
-        android:src="@drawable/star_color"
-        app:layout_constraintBottom_toBottomOf="@id/bookSceen1"
-        app:layout_constraintEnd_toStartOf="@id/trash1"
-        app:layout_constraintStart_toEndOf="@id/percent1" />
+        android:src="@drawable/star_grey"
+        app:layout_constraintBottom_toBottomOf="@id/bookSceen2"
+        app:layout_constraintEnd_toStartOf="@id/trash2"
+        app:layout_constraintStart_toEndOf="@id/percent2" />
 
     <ImageButton
-        android:id="@+id/trash1"
+        android:id="@+id/trash2"
         android:layout_width="41dp"
         android:layout_height="41dp"
         android:background="@drawable/round_corner_background"
@@ -66,45 +63,45 @@
         android:paddingEnd="6dp"
         android:paddingBottom="6dp"
         android:src="@drawable/trash"
-            app:layout_constraintBottom_toBottomOf="@id/bookSceen1"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/star1"
- />
+        app:layout_constraintBottom_toBottomOf="@id/bookSceen2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/star2"
+        />
+
 
 
     <TextView
-        android:id="@+id/caption1"
+        android:id="@+id/caption2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_font"
-        android:text="Brave New\nWorld"
-        android:textColor="@color/black"
+        android:text="Jane Eyre"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@id/annotation1"
-        app:layout_constraintStart_toStartOf="@id/percent1"
-        app:layout_constraintTop_toTopOf="@id/bookSceen1"></TextView>
+        app:layout_constraintBottom_toTopOf="@id/annotation2"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/percent2"
+        app:layout_constraintTop_toTopOf="@id/bookSceen2"></TextView>
 
     <TextView
-        android:id="@+id/annotation1"
+        android:id="@+id/annotation2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_font"
-        android:text="The novel opens in the World State\ncity of London in AF (After Ford)\n632 (AD 2540 in te Gregorian..."
-        android:textColor="@color/black"
+        android:text="The novel follows the story of\nJane, a seemingly plain and simple\ngirl as she battles through life's\n struggles. Jane has many obstacles in her life - her cruel..."
         android:textSize="10sp"
-        app:layout_constraintBottom_toTopOf="@id/percent1"
-        app:layout_constraintStart_toStartOf="@id/percent1"
-        app:layout_constraintTop_toBottomOf="@+id/caption1"></TextView>
-
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/percent2"
+        app:layout_constraintStart_toStartOf="@id/percent2"
+        app:layout_constraintTop_toBottomOf="@+id/caption2"></TextView>
     <TextView
-        android:id="@+id/over_button1"
+        android:id="@+id/over_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/vertical_ellipsis"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@id/trash1"
-        app:layout_constraintTop_toTopOf="@id/bookSceen1" />
+        app:layout_constraintEnd_toEndOf="@id/trash2"
+        app:layout_constraintTop_toTopOf="@id/bookSceen2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

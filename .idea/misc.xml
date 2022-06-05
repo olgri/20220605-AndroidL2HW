@@ -3,8 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/drawable/brave_new_world-2.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/brave_new_world.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/can-2.xml" value="0.309" />
+        <entry key="app/src/main/res/drawable/ic_brave_new_world.xml" value="0.238" />
+        <entry key="app/src/main/res/drawable/ic_overfloor_dark.xml" value="0.308" />
+        <entry key="app/src/main/res/drawable/jane_eyre.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/little_women.xml" value="0.225" />
+        <entry key="app/src/main/res/drawable/round_corner_background.xml" value="0.2235" />
+        <entry key="app/src/main/res/drawable/star_color.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/star_grey.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/trash.xml" value="0.1" />
+        <entry key="app/src/main/res/font/roboto_font.xml" value="0.246875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/cell_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/cell_layout2.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/cell_layout3.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/squre_with_info.xml" value="0.33" />
       </map>
     </option>
   </component>

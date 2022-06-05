@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidL2HW</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+
 </resources>
