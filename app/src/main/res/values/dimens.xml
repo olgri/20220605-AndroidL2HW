@@ -2,4 +2,18 @@
 <resources>
     <dimen name="annotation_font_size">10sp</dimen>
     <dimen name="info_square_dimension">41dp</dimen>
+    <dimen name="bookImageW">106dp</dimen>
+    <dimen name="bookImageH">148dp</dimen>
+    <dimen name="noMatterW">0dp</dimen>
+    <dimen name="bookCaptionTextSize">20sp</dimen>
+    <dimen name="overDotsSize">20sp</dimen>
+    <dimen name="mainBlockPaddingSize">15dp</dimen>
+    <dimen name="cellLayoutH">178dp</dimen>
+    <dimen name="startEndPadding">29dp</dimen>
+    <dimen name="topBottomPadding">15dp</dimen>
+    <dimen name="spaceBetweenCaptionAndAnnotation">9dp</dimen>
+    <dimen name="minimalSpaceBetweenButtonsAndAnnotation">11dp</dimen>
+    <dimen name="spaceInButton">7dp</dimen>
+    <dimen name="SpaceInButton6dp">6dp</dimen>
+    <dimen name="spaceBetweenImageAndMainBlock_15dp">15dp</dimen>
 </resources>
