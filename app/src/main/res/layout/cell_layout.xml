@@ -66,10 +66,9 @@
         android:paddingEnd="6dp"
         android:paddingBottom="6dp"
         android:src="@drawable/trash"
-            app:layout_constraintBottom_toBottomOf="@id/bookSceen1"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/star1"
- />
+        app:layout_constraintBottom_toBottomOf="@id/bookSceen1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/star1" />
 
 
     <TextView

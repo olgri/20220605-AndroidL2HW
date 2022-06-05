@@ -29,13 +29,12 @@
         android:background="@drawable/round_corner_background"
         android:fontFamily="@font/roboto_font"
         android:gravity="center"
-        android:text="52%"
+        android:text="5%"
+        android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@id/bookSceen2"
         app:layout_constraintEnd_toStartOf="@id/star2"
-        app:layout_constraintStart_toEndOf="@id/bookSceen2"
-        android:textColor="@color/black"
-        ></TextView>
+        app:layout_constraintStart_toEndOf="@id/bookSceen2"></TextView>
 
     <ImageButton
         android:id="@+id/star2"
@@ -65,9 +64,7 @@
         android:src="@drawable/trash"
         app:layout_constraintBottom_toBottomOf="@id/bookSceen2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/star2"
-        />
-
+        app:layout_constraintStart_toEndOf="@id/star2" />
 
 
     <TextView
@@ -76,9 +73,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_font"
         android:text="Jane Eyre"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@id/annotation2"
-        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@id/percent2"
         app:layout_constraintTop_toTopOf="@id/bookSceen2"></TextView>
 
@@ -87,12 +84,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_font"
-        android:text="The novel follows the story of\nJane, a seemingly plain and simple\ngirl as she battles through life's\n struggles. Jane has many obstacles in her life - her cruel..."
-        android:textSize="10sp"
+        android:text="The novel follows the story of\nJane, a seemingly plain and simple\ngirl as she battles through life's\nstruggles. Jane has many obstacles in her life - her cruel..."
         android:textColor="@color/black"
+        android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@id/percent2"
         app:layout_constraintStart_toStartOf="@id/percent2"
         app:layout_constraintTop_toBottomOf="@+id/caption2"></TextView>
+
     <TextView
         android:id="@+id/over_button2"
         android:layout_width="wrap_content"

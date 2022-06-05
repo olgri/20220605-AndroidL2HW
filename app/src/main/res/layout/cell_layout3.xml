@@ -29,13 +29,12 @@
         android:background="@drawable/round_corner_background"
         android:fontFamily="@font/roboto_font"
         android:gravity="center"
-        android:text="52%"
+        android:text="50%"
+        android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@id/bookSceen3"
         app:layout_constraintEnd_toStartOf="@id/star3"
-        app:layout_constraintStart_toEndOf="@id/bookSceen3"
-        android:textColor="@color/black"
-        ></TextView>
+        app:layout_constraintStart_toEndOf="@id/bookSceen3"></TextView>
 
     <ImageButton
         android:id="@+id/star3"
@@ -65,8 +64,7 @@
         android:src="@drawable/trash"
         app:layout_constraintBottom_toBottomOf="@id/bookSceen3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/star3"
-        />
+        app:layout_constraintStart_toEndOf="@id/star3" />
 
 
     <TextView
@@ -75,9 +73,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_font"
         android:text="Little Women"
+        android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@id/annotation3"
-        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@id/percent3"
         app:layout_constraintTop_toTopOf="@id/bookSceen3"></TextView>
 
@@ -87,8 +85,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_font"
         android:text="The story follows the lives of the\nfour March sisters—Meg, Jo, Beth,\n and Amy—and details their\npassage from childhood to\nwomanhood. It is loosely based..."
-        android:textSize="10sp"
         android:textColor="@color/black"
+        android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@id/percent3"
         app:layout_constraintStart_toStartOf="@id/percent3"
         app:layout_constraintTop_toBottomOf="@+id/caption3"></TextView>
@@ -103,8 +101,6 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@id/trash3"
         app:layout_constraintTop_toTopOf="@id/bookSceen3" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
