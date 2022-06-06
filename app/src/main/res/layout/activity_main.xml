@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingStart="16dp"
-    android:paddingEnd="16dp"
-    android:paddingTop="16dp"
-    android:paddingBottom="16dp"
-    tools:context=".MainActivity">
+    android:layout_margin="@dimen/mainLayoutMargin_15dp"
 
+    android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <include layout="@layout/cell_layout" />
 
-        <include layout="@layout/cell_layout" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="16dp" />
 
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="16dp"/>
-        <include layout="@layout/cell_layout2" />
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="16dp"/>
+    <include layout="@layout/cell_layout2" />
 
-        <include layout="@layout/cell_layout3" />
-    </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="16dp" />
+
+    <include layout="@layout/cell_layout3" />
+</LinearLayout>

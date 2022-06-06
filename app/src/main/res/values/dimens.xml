@@ -16,4 +16,5 @@
     <dimen name="spaceInButton">7dp</dimen>
     <dimen name="SpaceInButton6dp">6dp</dimen>
     <dimen name="spaceBetweenImageAndMainBlock_15dp">15dp</dimen>
+    <dimen name="mainLayoutMargin_15dp">15dp</dimen>
 </resources>
